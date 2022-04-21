@@ -10,10 +10,10 @@ stk.push(1);
 stk.push(2);  
 stk.push(3);  
 stk.push(4);  
-System.out.println("Elements in Stack:"+stk);
-System.out.println("Pop :"+stk.pop());
-System.out.println("Pop :"+stk.pop());
-System.out.println("Elements in Stack:"+stk);
+logger.log("Elements in Stack:"+stk);
+logger.log("Pop :"+stk.pop());
+logger.log("Pop :"+stk.pop());
+logger.log("Elements in Stack:"+stk);
 
 
 }  
